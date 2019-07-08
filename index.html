@@ -71,43 +71,52 @@
                         
                                             
                   <div class="row box__info">
-                    <div class="col m12 s12 l12 xl5">
+                    <div class="col m12 s12 l5 xl5">
                         
                      
                         <img src="img/Bonus-1-done.svg" alt="done" class="done">
                            
                       </div>
-                       <div class="col m12 s12 l12 xl7">
+                       <div class="col m12 s12 l7 xl7">
                             <h5>Действуете быстро?</h5> <p>Регистрируйтесь, пока работает таймер, и получите на email доступ к 3-м секретным видео с техниками борьбы с ленью и откладыванием</p>
                    </div> 
                </div> 
                         
-                        <div class="timer">
-                         
-                                  <div id="countdown_dashboard__1">
-                                        <div class="dash days_dash">
-
-                                            <div class="digit">0</div>
-                                            <div class="digit">0</div>
-                                           
-                                        </div>
-                                        <div class="dash hours_dash">
-                                            <div class="digit">0</div>
-                                            <div class="digit">0</div>
-                                       
-                                        </div>
-                                        <div class="dash minutes_dash">
-                                            <div class="digit">0</div>
-                                            <div class="digit">0</div>
-                                           
-                                        </div>
-                                        <div class="dash seconds_dash">
-                                            <div class="digit">0</div>
-                                            <div class="digit">0</div>
-                                          
-                                        </div>
-                                    </div>
-                         </div>
+                          <div class="timer">
+                                                <div class="timer-hours timer-block">
+                                                    <div class="span_block">
+                                                        <span class="val">00</span>
+                                                        <span class="what">час.</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timer-slice">
+                                                    <span>:</span>
+                                                </div>
+                                                <div class="timer-minutes timer-block">
+                                                    <div class="span_block">
+                                                        <span class="val">07</span>
+                                                        <span class="what">мин.</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timer-slice">
+                                                    <span>:</span>
+                                                </div>
+                                                <div class="timer-seconds timer-block">
+                                                    <div class="span_block">
+                                                        <span class="val">48</span>
+                                                        <span class="what">сек.</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timer-slice">
+                                                    <span>:</span>
+                                                </div>
+                                                <div class="timer-milliseconds timer-block">
+                                                    <div class="span_block">
+                                                        <span class="val">00</span>
+                                                        <span class="what">м.сек.</span>
+                                                    </div>
+                                                </div>
+                                            </div>  
                         
                         
                         <a data-fancybox="" data-src="#trueModal" href="javascript:;" class="blue last">Участвовать + Бонус</a>
@@ -146,7 +155,9 @@
                     </ul>
                 </div>                
                 <div class="col m12 s12 l4 xl4">
-                    <img src="img/source.png" alt="source" class="images">
+<!--                    <img src="img/source.gif" alt="source" class="images">-->
+                    
+                    <video src="img/source.mp4" class="images" autoplay loop></video> 
                 </div>
             </div>
         </div>
@@ -387,7 +398,45 @@
                                  <p class="big">3 секретные видео с техниками борьбы против лени и откладывания</p>
                                  
                                  <div class="data">
+                                 
+                                 
+                                             <div class="timer">
+                                                <div class="timer-hours timer-block">
+                                                    <div class="span_block">
+                                                        <span class="val">00</span>
+                                                        <span class="what">час.</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timer-slice">
+                                                    <span>:</span>
+                                                </div>
+                                                <div class="timer-minutes timer-block">
+                                                    <div class="span_block">
+                                                        <span class="val">07</span>
+                                                        <span class="what">мин.</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timer-slice">
+                                                    <span>:</span>
+                                                </div>
+                                                <div class="timer-seconds timer-block">
+                                                    <div class="span_block">
+                                                        <span class="val">48</span>
+                                                        <span class="what">сек.</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timer-slice">
+                                                    <span>:</span>
+                                                </div>
+                                                <div class="timer-milliseconds timer-block">
+                                                    <div class="span_block">
+                                                        <span class="val">00</span>
+                                                        <span class="what">м.сек.</span>
+                                                    </div>
+                                                </div>
+                                            </div>  
                               
+<!--
                                      <div id="countdown_dashboard__2">
                                         <div class="dash days_dash">
 
@@ -415,6 +464,7 @@
                                         
                                         </div>
                                     </div>
+-->
                                 
                                 </div>
                                  
@@ -508,7 +558,16 @@
             <input type=hidden name=admin_email value=demo@gmail.com>
             <input type=hidden name=form_subject value="demo form_subject">
             
-            <img src="img/Progress.png" alt="Progress" class='progress'>
+            
+          <div class="pr_wr">
+            <div class="pr">
+                <div class="pl_l"></div>
+                <span><strong class="pers">0%</strong></span>
+            </div>
+        </div>
+           
+            
+<!--            <img src="img/Progress.png" alt="Progress" class='progress'>-->
             
             <p><strong>Почти готово!</strong> Пожалуйста, заполните эту форму и нажмите кнопку ниже, чтобы участвовать в онлайн мастер-классе:</p>
             
@@ -539,12 +598,14 @@
 
                 <!-- Countdown dashboard end -->
             
-        <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js></script> 
+ <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js></script> 
+<!--        <script src=https://leadgen.studio/sazonova/dist/js/main.js></script> -->
 
          
 <!--        <script src=http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js></script>    -->
 <!--        <script src=./js/jquery.lwtCountdown-1.0.js></script>    -->
         
+<!--
         <script>
     
             $(document).ready(function(){ 
@@ -557,7 +618,7 @@
                             'year': 	2019,
                             'hour': 	23,
                             'min': 		0,
-                            'sec': 		0
+//                            'sec': 		0
                         }
                     });
                 
@@ -569,17 +630,25 @@
                             'hour': 	23,
                             'min': 		0,
                             'sec': 		0
+                      
                         }
                     });
 
 
             });	
         </script>
+-->
 
 <!--
         <script src="https://cdn.jsdelivr.net/gh/RobinHerbots/Inputmask@3.3.7/dist/inputmask/inputmask.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/RobinHerbots/Inputmask@3.3.7/dist/inputmask/jquery.inputmask.js"></script>
 -->
+    
+ 
+    
+       
+ 
+    
 
     <script type="text/javascript" src="js/main.min.js"></script></body> 
 </html>
